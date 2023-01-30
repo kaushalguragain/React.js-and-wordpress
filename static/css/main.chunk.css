@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css2??family=Rubik:wght@300;400;500;600;700;800;900&display=swap);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container{
+  max-width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+header {
+  padding: 20px 0;
+}
+header ul {
+  display: inline-block;
+}
+header ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+header ul li a {
+  font-weight: 500;
+  transition: 0.5s;
+}
+header ul li a:hover {
+  color: #38d16a;
+  font-weight: 500;
+}
+.HeaderIcon{
+  margin-left: 20px;
+  transition: 0.5s;
+}
+.navbar-items-icon{
+color:#000;
+display: none;
+}
+header.active{
+  position:sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 28px 0 rgba(0 0 0 /6%);
+  width: 100%;
+  z-index: 10;
+}
+@media screen and (max-width:768px) {
+  header .icon{
+    display: none;
+  }
+  .nav-links{
+    display: none;
+  }
+  .nav-links-sidebar{
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    left: 50px;
+    top: 75px;
+    transition: 0.5s;
+    width: 100%;
+    height: 30vh;
+    z-index: 5;
+  }
+  .nav-links-sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  header ul li{
+    margin-bottom: 30px;
+  }
+  .navbar-items-icon{
+    display: block;
+    position: absolute;
+    right: 30px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px;
+  }
+}
+/*-----home*/
+.left,
+.right  {
+  width: 50%;
+  position: relative;
+  margin-right: 20px;
+}
+.flex{
+  display: flex;
+}
+.topMargin{
+  margin-top: 80px;
+}
+.home{
+  height: 90vh;
+}
+.home .img {
+  height: 90vh;
+  width: 100%; 
+  position: relative;
+}
+.home img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+  transform: scale(1,1);
+}
+.home h1 {
+  font-size: 60px;
+}
+.scoialIcon i {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.scoialIcon i:hover{
+  color: #fff;
+}
+.facebook{
+  color:#4267b2;
+  border: 1px solid #4267b2;
+}
+.facebook:hover {
+  background-color:#4267b2;
+}
+.instagram{
+  color:#fb3958;
+  border: 1px solid #fb3958;
+}
+.instagram:hover{
+  background-color:#fb3958; 
+}
+.pinterest{
+  color:#c8232c;
+  border: 1px solid #c8232c;
+}
+.pinterest:hover{
+  background-color:#c8232c;
+}
+.dribble{
+  color:#ee72a2;
+  border: 1px solid #ee72a2;
+}
+.dribble:hover{
+  background-color:#ee72a2;
+}
+.youtube{
+  color:#FF0000;
+  border: 1px solid #FF0000;
+}
+.youtube:hover{
+  background-color:#FF0000;
+}
+.twitter{
+  color:#00acee;
+  border: 1px solid #00acee;
+}
+.twitter:hover{
+  background-color:#00acee;
+}
+button{
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.primary-btn{
+  padding: 15px 40px;
+  background: #38d16a;
+}
+.primary-btn:hover{
+  background: #f54ea2;
+  box-shadow: 0 13px 27px 0 rgba(245 78 162 /25%);
+}
+.home .right {
+  margin-top: 15%;
+}
+.home .scoialIcon{
+  margin: 30px 0;
+}
+.home p {
+  margin-bottom: 20px;
+}
+p {
+  color: #6185a5;
+  line-height: 30px;
+  text-align: justif y;
+} 
+
+
+/*# sourceMappingURL=main.chunk.css.map*/
